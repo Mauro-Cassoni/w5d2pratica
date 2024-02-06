@@ -15,6 +15,7 @@ public class W5d1praticaApplication {
 
 		Menu menu = (Menu) ctx.getBean("menu");
 
+
 		menu.stampaMenu();
 
 	}
