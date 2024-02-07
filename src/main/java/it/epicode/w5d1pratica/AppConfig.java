@@ -117,5 +117,10 @@ public class AppConfig {
         return menu;
     }
 
+    @Bean("lista_pizze")
+    public List<Pizza> pizze(){
+        return List.of(margherita(),margheritaSalame());
+    }
+
 
 }
